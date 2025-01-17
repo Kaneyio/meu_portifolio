@@ -79,7 +79,7 @@ header {
   }
 
   &.header-open {
-    transform: translateY(-100%);
+    transform: translateY(0);
   }
 
   @media (max-width: 480px) {
@@ -87,6 +87,7 @@ header {
     gap: 60px;
     padding: 20px 0px 20px 0px;
     height: 100%;
+    transform: translateY(-100%);
 
     & > span {
       top: 10px;
